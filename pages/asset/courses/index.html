@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <meta name='wap-font-scale' content='no'/>
+        <meta name='description' content=''/>
+        <meta name='keywords' content=''/>
+        <title>健身课程</title>
+        <link rel='shortcut icon' href='' type='image/x-icon'/>
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        <div id="loading">
+            <img src="../../images/oval.svg" alt="">
+        </div>
+        <!--*****swiper B*****-->
+        <link rel="stylesheet" href="../../css/swiper.min.css">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <a class="swiper-slide" href=""><img src="../../images/banner1.jpg"></a>
+                <a class="swiper-slide" href=""><img src="../../images/banner2.jpg"></a>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--*****swiper E*****-->
+        <!--*****container B*****-->
+        <div class="common-container">
+            <div class="week-tab">
+                <ul class="week-tab-ul">
+                </ul>
+            </div>
+            <div class="week-content">
+                <ul>   
+                </ul>
+            </div>
+        </div>
+        <textarea id="courseArea" class="hidden">
+            <li class="flex-box flex-align-items-center">
+                <div class="head-img"><img src="../../static/$coachURL$" alt="教练头像"/></div>
+                <div class="coach-info flex-item1">
+                    <p class="course-name">$courseTypeName$</p>
+                    <p class="course-des">$tags$</p>
+                    <p class="course-time"><b>$courseTime$</b></p>
+                    <p class="course-price"><b>$coursePrice$</b></p>
+                </div>
+                <a href="detail.html?id=$id$" class="common-btn $fullBtn$">$btnWord$</a>
+            </li>
+        </textarea>
+        <!--*****container E*****-->
+        <!--*****nav B*****-->
+        <nav class="common-nav flex-box">
+            <a href="index.html" class="nav-item active"><span>健身教程</span></a>
+            <a href="../order/index.html" class="nav-item"><span>我的预约</span></a>
+            <a href="../vip/index.html" class="nav-item"><span>VIP</span></a>
+        </nav>
+        <!--*****nav E*****-->
+        <script src="../../js/config.js"></script>
+        <script src="../../js/jquery-2.1.4.min.js"></script>
+        <script src="../../js/swiper/swiper.min.js"></script>
+        <script src="../../js/course.js"></script>
+    </body>
+</html>

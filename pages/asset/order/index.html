@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <meta name='wap-font-scale' content='no'/>
+        <meta name='description' content=''/>
+        <meta name='keywords' content=''/>
+        <title>我的预约</title>
+        <link rel='shortcut icon' href='' type='image/x-icon'/>
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        <div id="loading">
+            <img src="../../images/oval.svg" alt="">
+        </div>
+        <!--*****container B*****-->
+        <div class="common-container">
+            <div class="order-box">
+                <div class="flex-item1">
+                    <p class="count">11</p>
+                    <p class="font12">累计训练/次</p>
+                </div>
+                <div class="flex-item1">
+                    <p class="count">11</p>
+                    <p class="font12">累计时长/分钟</p>
+                </div>
+                <div class="flex-item1">
+                    <p class="count">11</p>
+                    <p class="font12">累计天数</p>
+                </div>
+            </div>
+            <a href="../courses/index.html" class="common-btn order-btn">果断去约课</a>
+        </div>
+        <!--*****container E*****-->
+        <!--*****nav B*****-->
+        <nav class="common-nav flex-box">
+            <a href="../courses/index.html" class="nav-item"><span>健身教程</span></a>
+            <a href="index.html" class="nav-item active"><span>我的预约</span></a>
+            <a href="../vip/index.html" class="nav-item"><span>VIP</span></a>
+        </nav>
+        <!--*****nav E*****-->
+        <script src="../../js/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function(){
+                $('#loading').remove();
+                $('b.common-btn').on('click',function(){
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            })
+        </script>
+    </body>
+</html>

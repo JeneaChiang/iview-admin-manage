@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name='wap-font-scale' content='no' />
+    <meta name='description' content='' />
+    <meta name='keywords' content='' />
+    <title>课程介绍</title>
+    <link rel='shortcut icon' href='' type='image/x-icon' />
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../fonts/iconfont.css">
+</head>
+
+<body>
+    <div id="loading">
+        <img src="../../images/oval.svg" alt="">
+    </div>
+    <!--*****container B*****-->
+    <div class="detail-container">
+    </div>
+    <textarea id="detailArea" class="hidden">
+        <div class="detail-box p15 clearfix">
+            <p class="float-left mr10">
+                <span class="coach-name">$coachName$</span>
+                $coachDetail$
+            </p>
+            <p class="float-right head-img"><img src="../../static/$coachURL$" alt="教练头像"></p>
+        </div>
+        <div class="detail-box">
+            <p class="detail-item p10 bt">
+                <i class="icon-uniE670 font18 mr10"></i>$detailPrice$
+            </p>
+            <p class="detail-item p10 bt">
+                <i class="icon-uniE644 font18 mr10"></i>$detailTime$
+            </p>
+            <p class="detail-item p10">
+                <i class="icon-uniE7D3 font18 mr10"></i><span class="">地点在哪里我也不知道</span>
+            </p>
+        </div>
+        <div class="detail-box">
+            <h3><i class="icon-uniE6EA"></i>课程简介</h3>
+            <div class="p15">
+                <p>$summary$</p>
+                <p class="mt10 mb10">$tagList$</p>
+                <div class="swiper-img $imgShow$">
+                    $swiperImg$
+                </div>
+            </div>
+            <div class="$effShow$">
+                <h4>训练效果</h4>
+                <div class="p15">
+                    <p>$eff$</p>
+                </div>
+            </div>
+            <h4>适合人群</h4>
+            <div class="p15">
+                <p>$suit$</p>
+            </div>
+            <div class="$faqShow$">
+                <h4>FAQ</h4>
+                <div class="p15">
+                    <p>$faq$</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="detail-box">
+            <h3><i class="icon-uniE762"></i>注意事项</h3>
+            <div class="p15">
+                <p>$notice$</p>
+            </div>
+        </div>
+        <div class="detail-box">
+            <h3><i class="icon-uniE698"></i>健身步骤</h3>
+            <div class="p50">
+                <img src="../../images/detailimg1.png" width="100%"/>
+            </div>
+        </div>
+    </textarea>
+    <!--*****container E*****-->
+    <!--*****nav B*****-->
+    <nav class="detail-nav flex-box">
+        <a href="confirm.html" class="detail-item flex-item2 active">
+            <span>立即约课</span>
+        </a>
+        <a href="javascript:;" class="detail-item flex-item1">
+            <span>分享</span>
+        </a>
+    </nav>
+    <!--*****nav E*****-->
+    <script src="../../js/config.js"></script>
+    <script src="../../js/jquery-2.1.4.min.js"></script>
+    <script src="../../js/detail.js"></script>
+</body>
+
+</html>

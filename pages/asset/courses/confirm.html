@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <meta name='wap-font-scale' content='no'/>
+        <meta name='description' content=''/>
+        <meta name='keywords' content=''/>
+        <title>确认订单</title>
+        <link rel='shortcut icon' href='' type='image/x-icon'/>
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+        <div id="loading">
+            <img src="../../images/oval.svg" alt="">
+        </div>
+        <!--*****container B*****-->
+        <div class="common-container">
+            <h1>请确认订单信息</h1>
+            <div class="confirm-info">
+                <p class="flex-box">
+                    <span class="mr10">课程:</span>
+                    <span class="flex-item1 align-right">瑜伽</span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">时间:</span>
+                    <span class="flex-item1 align-right">9月22日 07:30-08:30</span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">地点:</span>
+                    <span class="address flex-item1 align-left">深圳市福田区深圳市福田区深圳市福田区深圳市福田区</span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">人数:</span>
+                    <span class="flex-item1 align-right"><b class="common-btn active">1人</b><b class="common-btn">2人</b><b class="common-btn">3人</b></span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">总价:</span>
+                    <span class="flex-item1 align-right">45元</span>
+                </p>
+            </div>
+            <div class="confirm-info">
+                <p class="flex-box">
+                    <span class="mr10">VIP折后价:</span>
+                    <span class="flex-item1 align-right normal-color">尚未开通</span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">代金券:</span>
+                    <span class="flex-item1 align-right normal-color">无优惠券</span>
+                </p>
+                <p class="flex-box">
+                    <span class="mr10">还需支付:</span>
+                    <span class="flex-item1 align-right normal-color">45元</span>
+                </p>
+            </div>
+            <p class="mes">温馨提示：开始前6小时取消，全额退款；开始前6小时后取消，不支持退款。</p>
+        </div>
+        <!--*****container E*****-->
+        <!--*****nav B*****-->
+        <nav class="detail-nav flex-box">
+            <a href="" class="detail-item flex-item1 active"><span>确认订单，微信支付</span></a>
+        </nav>
+        <!--*****nav E*****-->
+        <script src="../../js/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function(){
+                $('#loading').remove();
+                $('b.common-btn').on('click',function(){
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            })
+        </script>
+    </body>
+</html>

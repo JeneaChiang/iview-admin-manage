@@ -1,0 +1,42 @@
+{
+    "errCode": 0,
+    "result": [
+        {
+            "id": 1,
+            "name": "雪莲",
+            "img": "img/coach1.jpg",
+            "detail": "利用可调节悬挂吊床让练习者借本身身体体重，以精准的体位法，运用大自然的力量, 如地心引力, 加上练习者身体的重量及动感的离心力去加深每一个瑜伽体式的伸展，正位、复位的能力，同时借助反重力做出阻力训练，这三大力量原理来自物理运动学、可以很好的达到调塑健美的体态，具有高效的放松、疗愈、瘦身效果。在悬吊中进行定点拉伸可以加深体式的伸展、阻力和正位能力，更具有趣味性和互动性！\n",
+            "sex": 1,
+            "phone": 0,
+            "weixin": ""
+        },
+        {
+            "id": 2,
+            "name": "大Y",
+            "img": "img/coach2.jpg",
+            "detail": "偶尔课上啪啪啪，经常课外么么哒。讲得了理论，说得了段子，十年经验的背后是专业与细心。魔性的课堂氛围，超强的感染力，将会是你戒不掉的瘾！\n 国家二级运动员、美国运动委员会（ACE）认证私人执照、Thump-boxing Level 1\u00262 认证教练员、Thump-boxing 助理培训师、IFA健身泰拳认证教练员、Lesmills BodyAttack 认证教练员、TRX 认证教练员。\n",
+            "sex": 1,
+            "phone": 0,
+            "weixin": ""
+        },
+        {
+            "id": 3,
+            "name": "Bruce",
+            "img": "img/coach3.jpg",
+            "detail": "每个男孩从小都有一个英雄梦，我不可以是Bruce Lee，Bruce Wayne，Bruce Banner，但我将是Bruce Chung，当你的健身英雄。目前是AASFP专业体适能私人教练，TRX FTC认证教练，Trigger Point认证教练，Psycling室内单车认证教练，Schwinn室内单车国际认证教练。",
+            "sex": 0,
+            "phone": 0,
+            "weixin": ""
+        },
+        {
+            "id": 4,
+            "name": "木木",
+            "img": "img/coach4.jpg",
+            "detail": "九年的瑜伽时光让我更加坚定对瑜伽最初的那份热爱,瑜伽不只是身体外在的习练,更是内在自我的修行,每一次的授课都让我对瑜伽更爱一点,感恩人生路上有瑜伽相伴,不忘初心,瑜伽到老。",
+            "sex": 1,
+            "phone": 0,
+            "weixin": ""
+        }
+    ],
+    "total": 4
+}
