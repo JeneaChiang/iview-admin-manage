@@ -38,8 +38,8 @@
  |   |-- src                                    // 源码目录
  |       |-- components                         // 组件
  |           |-- common                         // 全局
- |           |-- modal                          // 自定义对话框组件
- |   	       |-- page                           // 主要页面
+ |           |-- modal                          // 自定义对话框组件
+ |           |-- page                           // 主要页面
  |       |-- config                             // 项目打包路径
  |       |-- libs                               // 工具函数
  |       |-- template                           // 母版页
